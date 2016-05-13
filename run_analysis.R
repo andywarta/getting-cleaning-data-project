@@ -1,7 +1,7 @@
 # Clean up workspace
 rm(list=ls())
 # 1. Merge the training and the test sets to create one data set.
-#set working directory to the location where the UCI HAR Dataset was unzipped
+#set working directory to the location where the UCI HAR Dataset was unzipped.
 setwd('/Users/andys/Desktop/R Program/UCI HAR Dataset/');
 # Read in the data from files
 features     = read.table('./features.txt',header=FALSE); #imports features.txt
